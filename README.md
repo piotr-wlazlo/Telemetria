@@ -5,7 +5,6 @@ System telemetrii bolidesa, składający się z modułu znajdującego się w bol
 - xbee_sender.py
 - telemetria-esp/
 - telemetria-rpi/
-- docs/ - kiedyś powstanie tam dokumentacja
 
 ### `xbee_sender.py`
 Dotychczasowy program działający w bolidzie.
@@ -27,9 +26,6 @@ Odpowiada za:
 - wysłanie do bolidesa liczby okrążeń i maksymalnego czasu,
 - aktualizowanie aktualnego okrążenia,
 - wysyłanie do bolidesa informacji o czasie wyścigu.
-
-### `docs/`
-Dokumentacja projektu.
 
 ## STATUS
 `telemetria-esp/`, `telemetria-rpi/` oraz `docs/` są w trakcie powstawania.
