@@ -1,6 +1,7 @@
 #include <Arduino.h>
 
 #include "oled.h"
+#include "can.h"
 
 void setup() {
 	Serial.begin(115200);
@@ -11,6 +12,13 @@ void setup() {
 	}
 
 	Serial.printf("OLEDs initialized.\n");
+
+	if(!can_setup()) {
+		Serial.printf("CAN not initialized.\n");
+		return;
+	}
+
+	Serial.printf("CAN initialized");
 }
 
 void loop() {

@@ -26,6 +26,3 @@ Odpowiada za:
 - wysłanie do bolidesa liczby okrążeń i maksymalnego czasu,
 - aktualizowanie aktualnego okrążenia,
 - wysyłanie do bolidesa informacji o czasie wyścigu.
-
-## STATUS
-`telemetria-esp/`, `telemetria-rpi/` oraz `docs/` są w trakcie powstawania.
